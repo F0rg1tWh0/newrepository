@@ -1,0 +1,151 @@
+body{
+    background-image: url(background.jpg);
+}
+
+h1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.fastfood_container{
+    background-image: url(burger_main.jpg);
+    background-size: cover;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    border-radius: 20px;
+    width: 450px;  
+    height: 210px; 
+    
+    
+}
+
+.salads_container{
+    background-image: url(salad_main.jpg);
+    background-size: cover;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 440px;
+    left: 60px;
+    border-radius: 20px;
+    width: 220px;  
+    height: 190px;
+    
+}
+
+.rolls_container{
+    background-image: url(rolls_main.jpg);
+    background-size: cover;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 440px;
+    right: 60px;
+    border-radius: 20px;
+    width: 220px;  
+    height: 190px;
+}
+
+.main{
+    display: flex;
+}
+
+.start{
+    display: none;
+}
+.start1{
+    display: none;
+}
+.start2{
+    display: none;
+}
+.start3{
+    display: none;
+}
+.start4{
+    display: none;
+}
+.start5{
+    display: none;
+}
+.img1{
+    justify-content: left;
+    align-items: left;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+.burgers{
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+    padding-bottom: 1px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-80px;
+}
+.item{
+    width: 100%;
+    height: 170px;
+}
+
+.plus{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: -35px;
+    margin-right: 40px;
+}
+.minus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px; 
+    margin-right: -210px;
+}
+
+.count{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: -10px;
+    margin-right: 100px;
+}
+
+.btn{
+    width: 110px;
+    background-color: #9fb4d6;
+    font-size: 30px;
+    font-style: italic;
+    border-radius: 15px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center
+}
+.btn:hover{
+    background-color: bisque;
+    outline: dotted red;
+}
+.go_to_main{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.basket{
+    margin-left: 400px;
+    margin-top: -36px
+}
